@@ -174,7 +174,7 @@ const generateTaxReport = () => {
       }
     });
     remainingAmount = buyTracker - sellQuantity; 
-    if(buyTracker == 0)
+    if(buyTracker === 0)
     {
       remainingAmount = 0;
     } else {
