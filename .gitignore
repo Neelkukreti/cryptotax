@@ -42,3 +42,4 @@ node_modules/.cache/
 
 # Other system files
 npm-debug.log
+node_modules/
