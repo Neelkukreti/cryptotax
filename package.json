@@ -25,6 +25,8 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,6 +52,8 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
-    "@types/xlsx": "^0.0.36"
-  }
+    "@types/xlsx": "^0.0.36",
+    "gh-pages": "^6.2.0"
+  },
+  "homepage": "https://neelkukreti.github.io/cryptotax"
 }
